@@ -1,0 +1,46 @@
+h1{
+    font-size: 20px;
+    background-size: cover;
+}
+body, footer{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+}
+li{
+    padding: 2em;
+}
+form{
+    width: 70%;
+    padding: 1em;
+    background-image: url(../aaproclase3-1/img/img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.contenedor{
+    font-weight: bolder;
+    font-size: 15px;
+    margin-bottom: 30px;
+    background-image: url(../aaproclase3-1/img/gringa.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    
+}
+footer{
+    display: flex;
+    font-weight: bold;
+    margin-top: 20px;
+}
+@media only screem and (min-width: 320px) and (max-whidth:1280px){
+    .contenedor{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    
+}
